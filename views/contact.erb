@@ -1,9 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>About</title>
+	<style type="text/css">
+		body {
+			background-color: 00A896;
+		}
+
+		#wrapper {
+			width: 800px;
+			margin: 0 auto;
+			font-family: arial;
+		}
+
+		h1 {
+			color: green;
+		}
+
+		textarea {
+			margin-top: 10px;
+		}
+		
+		.boxxie {
+			position: fixed;
+			right: 350px;
+		}
+	
+	</style>
 </head>
 <body>
-
+	<div id="wrapper">
+	<nav>
+		<ul>
+	<nav>
+		<ul>
+			<li> <a href="index">Home</a></li>
+			<li> <a href="about">About</a></li>
+			<li> <a href="array">Array</a></li>
+		</ul>
+	</nav>
+		</ul>
+	</nav>
+	<h1>Send yourself or someone else a message!</h1>
+	<form method="POST"
+          action="/sendmail"
+          id="usrform">
+          <!-- Needs spacing for sure, but focusing on other things for assignemt. -->
+		<label for="full_name">Who is Sending this? Provide First and Last Name</label>
+		<input type="text" name="flname" id="full_name" class="boxxie" placeholder="First and Last">
+		<br/>
+		<label for="user_email">What Email Should This Go To?</label>
+		<input type="email" name="u_email" id="user_email" class="boxxie">
+		<br/>
+		<label for="from_email">Who's Email Should This Come From?</label>
+		<input type="email" name="f_email" id="from_email" class="boxxie">
+		<br/>
+		<label for="text_for_email">Put Your Email Message Here!</label>
+		<br/> <!-- Adding in a text entry form for people to send emails through. -->
+		<textarea form="usrform" rows="6" cols="50" name="email_body"></textarea>
+		<br/>
+		<button type="submit">Send Email</button>
+	</form>
+	</div>
 </body>
 </html>
