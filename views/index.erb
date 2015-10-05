@@ -2,32 +2,40 @@
 <html>
 <head>
 	<title>Home</title>
-	<style type="text/css" href="style.css"></style>
+	<link type="text/css" href="/stylesheets/style.css" rel="stylesheet"></link>
 </head>
 <body>
 	<div id="wrapper">
+		<p id="heading">Hey there</p>
 		<div id ="banner1">
 			<div id ="navig">
 				<nav>
-					<ul>
-						<li class="nav_home"><a href="home">Home</a></li>
-						<li class="nav_about">About</li>
-						<li class="nav_products">Products</li>
-						<li class="nav_contact">Contact</li>
-
+					<ul id="navig_bar">
+						<div id="home_box" class="nav_boxes" onmouseenter="">	
+							<li id="nav_home" class-"navig_opt"><a href="home">Home</a></li>
+						</div>
+						<div id="about_box" class="nav_boxes">
+							<li id="nav_about" class-"navig_opt"><a href="about">About</a></li>
+						</div>
+						<div id="products_box" class="nav_boxes">
+							<li id="nav_products" class-"navig_opt"><a href="products">Products</a></li>
+						</div>
+						<div id="contact_box" class="nav_boxes">
+							<li id="nav_contact"class-"navig_opt"><a href="contact">Contact</a></li>
+						</div>
 					</ul>
-
-
 				</nav>			
 			</div>
 		</div>
-
-
-
-
-
 	</div>
+	  <button id="button2" onclick="click">Click my Box</button>
 
-<script type="text/javascript" href="animate.js"></script>
-</body>
+		<div id="box" style="background:#98bf21;height:100px;width:100px;margin:6px;">
+			<p id="boxhead">This is a mother fucking headline.</p>
+
+		</div>
+	<script> src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"</script>
+	<script type="text/javascript" src="animate.js"></script>
+	
+	</body>
 </html>

@@ -1,0 +1,20 @@
+
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#navig_bar {
+	list-style: none;
+	font-family: Trebuchet-MS;
+}
+
+.nav_boxes {
+	width: 100px;
+	background-color: grey;
+	border: 1px dashed purple;
+}
+
+#home_box:hover {
+	background-color: brown;
+}
