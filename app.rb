@@ -2,6 +2,7 @@ require "sinatra"
 require "mandrill"
 require "geolocater"
 require "tilt/erubis"
+require "gon-sinatra"
 
 
 m = Mandrill::API.new
@@ -17,7 +18,7 @@ get "/about" do
 end
 
 get "/contact" do
-	erb :array
+	erb :contact
 end
 
 get "/products" do
