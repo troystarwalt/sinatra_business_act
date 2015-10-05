@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="products.css"></head>
+
+	<body>
+		<div>
+			<li><span onmouseover="changeImage('../images/energydrink.jpg')">ACT Energy Drink</span></li>
+			<li><span onmouseover="changeImage('../images/gel.jpg')">ACT Energy Gel</span></li>
+			<li><span onmouseover="changeImage('../images/snacks.jpg')">Act Energy Snacks</span></li>
+			<li><span onmouseover="changeImage('../images/pills.jpg')">ACT Energy Supplements</span></li>
+		</div>
+		<img id="imagePreview" src="../images/energydrink.jpg">
+		
+		<br>
+		<a class="red" href="energy.html">Learn about our Energy drinks here!</a>
+		<a class="red" href="gel.html">Click here for more info about our energy gel!</a>
+		<a class="red" href="snacks.html">Want a delicious energy snack-click here!</a>
+		<a class="red" href="pills.html">Energy supplements found here!</a>
+
+		<script>
+			var imageElement = document.getElementById("imagePreview");
+
+			function changeImage(imageName){
+				imageElement.src = imageName;
+				
+			}
+		</script>
+
+	</body>
+</html>

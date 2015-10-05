@@ -1,0 +1,10 @@
+.cart_link {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.cart_link:hover {
+    background: red;
+}
