@@ -172,3 +172,11 @@ textarea {
      margin-left: 50px;
     }
 
+#bsub {
+  width: 150px;
+  border: 1.5px #3C3735 solid ;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #DF4500;
+  background: transparent;
+}
