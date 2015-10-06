@@ -29,6 +29,17 @@ get "/fullproducts" do
 	erb :fullproducts
 end
 
+get "/gel" do
+	erb :gel
+end
+
+get "/pill" do
+	erb :pill
+end
+
+get "/snacks" do
+	erb :snack
+end
 
 post "/sendmail" do
 	if !params[:u_email].nil? &&

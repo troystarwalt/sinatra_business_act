@@ -17,13 +17,38 @@ li.prod_list {
 	padding: 10px;
 	margin-right: 10px;
 	border: 1px solid #3C3735;
+  border-radius: 10px;
+}
+
+li.prod_list:hover {
+  background-color: #F0F3BD;
 }
 
 #list_of_prods {
 	margin-left: 4%;
 	color: #DF4500;
-	width: 850px;
+	width: 930px;
+}
 
+span a:link {
+  text-decoration: none;
+
+}
+
+span a:visited {
+  text-decoration: none;
+}
+
+span a:hover {
+  background-color: #F0F3BD;
+}
+
+span a:active {
+  text-decoration: none;
+}
+
+span a {
+  color: #DF4500;
 }
 
 *, :before, :after {
@@ -173,6 +198,8 @@ footer {
   margin-left: 300px;
   margin-right: 100px;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #DFDBD9;
+  font-size: .7em;
 }
 
 .noticeme_f {
@@ -224,4 +251,8 @@ textarea {
 
 #product_page {
 	margin-left: 6%;
+}
+
+.prod_image {
+  float: right;
 }
