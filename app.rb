@@ -25,6 +25,11 @@ get "/products" do
 	erb :products
 end
 
+get "/fullproducts" do
+	erb :fullproducts
+end
+
+
 post "/sendmail" do
 	if !params[:u_email].nil? &&
 	   !params[:flname].nil? &&
