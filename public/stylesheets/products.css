@@ -94,7 +94,7 @@ span a {
   transition: .15s linear color;
 }
 .logo a:hover {
-  color: #fff;
+  color: #F0F3BD;
 }
 /*This is the bar that slides*/
 .logo a:hover span {
@@ -118,7 +118,7 @@ span a {
   text-align: center;
 }
 .main-nav a:hover {
-  color: #fff;
+  color: #F0F3BD;
 }
 
 .social-links {
@@ -249,10 +249,30 @@ textarea {
 	margin-top: 10px;
 }
 
-#product_page {
+.product_page {
 	margin-left: 6%;
 }
 
 .prod_image {
   float: right;
+}
+
+#aboutInfo {
+  display: none;
+  border-bottom: 2px solid #3C3735;
+}
+
+#gelInfo {
+  display: none;
+  border-bottom: 2px solid #3C3735;
+}
+
+#snackInfo {
+  display: none;
+  border-bottom: 2px solid #3C3735;
+}
+
+#pillInfo {
+  display: none;
+  border-bottom: 2px solid #3C3735;
 }

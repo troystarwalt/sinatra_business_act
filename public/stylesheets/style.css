@@ -47,7 +47,7 @@ body {
   transition: .15s linear color;
 }
 .logo a:hover {
-  color: #fff;
+  color: #F0F3BD;
 }
 /*This is the bar that slides*/
 .logo a:hover span {
@@ -71,7 +71,7 @@ body {
   text-align: center;
 }
 .main-nav a:hover {
-  color: #fff;
+  color: #F0F3BD;
 }
 
 .social-links {
@@ -180,6 +180,7 @@ textarea {
      height: 40px;
      width: 200px;
      border: 1px #3C3735 solid;
+     font-size: 1em;
     }
 
 .contact_us {
