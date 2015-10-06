@@ -172,6 +172,16 @@ textarea {
      margin-left: 50px;
     }
 
+.contact_us {
+  border: 1px #3C3735 solid;
+  border-radius: 10px;
+  color: #DF4500;
+  padding: 5px 0 5px 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+
 #bsub {
   width: 150px;
   border: 1.5px #3C3735 solid ;

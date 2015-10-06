@@ -38,8 +38,9 @@ post "/sendmail" do
 						:name=> "#{params[:fl_name]}"}
 					],
 				:html=>"<html>#{params[:email_body]}
-						<p><i>#{params[:flname]} sent you this message. You should thank them!
-						</p></i>
+						<p><i>#{params[:flname]} sent you this message. You should thank them by sending them the below link!
+						</p></i><br>
+						<a href =http://retailmenot.com/coupons/energydrinks?c=3980614>Special Discount</a></em></p>
 						</html>",
 				:from_email=>"#{params[:f_email]}"
 			}
