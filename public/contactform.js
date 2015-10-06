@@ -1,6 +1,6 @@
  var str= name;
  var capt = str.toUppercase;
- var name = prompt("HELLO! WHATS YOUR NAME?");
+ var name = prompt("WELCOME TO A.C.T. ENERGY. WHATS YOUR NAME?");
 
  var problem = prompt("HOW CAN WE HELP YOU TODAY " + name + + "?");
 
